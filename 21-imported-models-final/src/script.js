@@ -31,6 +31,7 @@ gltfLoader.load(
     '/models/Flight/glTF-Embedded/Duck.gltf',
     (gltf) =>
     {
+        
         scene.add(gltf.scene.children[0])
     }
   
